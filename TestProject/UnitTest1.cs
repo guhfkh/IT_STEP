@@ -19,7 +19,6 @@ namespace IT_STEP.Tests
             db.Dispose();
         }
 
-        // ================= USER CRUD =================
 
         [Test, Order(1)]
         public void AddUser_Test()
@@ -80,7 +79,6 @@ namespace IT_STEP.Tests
             Assert.That(deleted, Is.Null, "User should be deleted.");
         }
 
-        // ================= MOVIE CRUD =================
 
         [Test, Order(5)]
         public void AddMovie_Test()
